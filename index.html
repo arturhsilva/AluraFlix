@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <title>
+    Imersão Dev
+  </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Aluraflix
+    </h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+    <p class="page-subtitle">
+      Quais seus filmes e séries favoritos?
+    </p>
+    <div class="form-wrapper">
+      <select onChange="defineCategoria()" id="categoria__tipo" nome="categoria__tipo" placeholder="Escolha a categoria">
+        <option value="filme" name="filme" selected>Filme</option>
+        <option value="serie" name="serie">Série</option>
+      </select>
+      <div class="campos__container">
+        <input type="text" id="filme__titulo" name="filme__titulo" placeholder="Insira o nome do filme" value="Interestelar">
+        <input type="text" id="filme__imagem" name="filme__imagem" placeholder="Insira URL da imagem" value="https://upload.wikimedia.org/wikipedia/pt/3/3a/Interstellar_Filme.png">
+        <input type="text" id="filme__trailer" name="filme__trailer" placeholder="Insira o URL do trailer" value="https://www.youtube.com/watch?v=mbbPSq63yuM">
+        </div>
+        <button onClick="adicionarFilme()">Adicionar Filme</button>
+    </div>
+  </div>
+  <section class="lista__container">
+    <h2 class="listaFilmes__titulo">Filmes Favoritos</h2>
+    <p>Selecione um dos filmes para assistir o trailer</p>
+    <div id="listaFilmes" class="categoria"></div>
+  </section>
+  <section class="lista__container">
+    <h2 class="listaSeries__titulo">Series Favoritas</h2>
+    <p>Selecione um das series para assistir o trailer</p>
+    <div id="listaSeries" class="categoria"></div>
+  </section>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
