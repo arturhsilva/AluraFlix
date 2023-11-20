@@ -6,7 +6,7 @@ Aula 04: Aprimore a Interatividade Adicionando Filmes com JavaScript
 | -------------  | --- |
 | :sparkles: Nome        | **AluraFlix: Imersão Dev 7ª Edição**
 | :label: Tecnologias | html, css (tecnologias utilizadas)
-| :rocket: URL         | https://arturhsilva.github.io/AluraBook
+| :rocket: URL         | https://arturhsilva.github.io/AluraFlix
 | :fire: Desafio     | 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
